@@ -1,0 +1,12 @@
+# Ignore the huge dataset folders
+asl_alphabet_train/
+asl_alphabet_test/
+
+# Ignore the big zip file
+archive.zip
+
+# Ignore python cache
+.conda/
+__pycache__/
+*.pyc
+.idea/
