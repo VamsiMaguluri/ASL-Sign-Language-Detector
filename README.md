@@ -38,5 +38,4 @@ This project was executed in five distinct phases, with team members leading spe
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/VamsiMaguluri/ASL-Sign-Language-Detector.git](https://github.com/VamsiMaguluri/ASL-Sign-Language-Detector.git)
-cd ASL-Sign-Language-Detector
+git clone https://github.com/VamsiMaguluri/ASL-Sign-Language-Detector.git
