@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 # --- 1. LOAD THE TRAINED MODEL ---
 print("Loading model...")
 try:
-    model = load_model('sign_language_model.h5')
+    model = load_model('sign_language_model_95.h5')
     print("Model loaded successfully!")
 except:
     print("ERROR: Could not find 'sign_language_model.h5'. Make sure you are in the correct folder.")
@@ -21,7 +21,7 @@ labels = {
 
 # --- 3. START WEBCAM (WITH DIRECTSHOW FIX) ---
 # We add cv2.CAP_DSHOW to fix the Windows error
-cap = cv2.VideoCapture(1, cv2.CAP_DSHOW)
+cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
 # If camera 0 doesn't work, try changing it to 1 in the line above
 if not cap.isOpened():
